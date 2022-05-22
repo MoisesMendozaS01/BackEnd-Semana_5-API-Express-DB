@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MoisesMendozaS01/BackEnd-Semana_5-API-Express-DB/issues"
   },
-  "homepage": "https://github.com/MoisesMendozaS01/BackEnd-Semana_5-API-Express-DB#readme"
+  "homepage": "https://github.com/MoisesMendozaS01/BackEnd-Semana_5-API-Express-DB#readme",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
 }
