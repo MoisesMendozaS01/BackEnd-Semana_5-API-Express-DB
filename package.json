@@ -1,0 +1,19 @@
+{
+  "name": "backend-semana_5-api-express-db",
+  "version": "1.0.0",
+  "description": "API: Express + DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoisesMendozaS01/BackEnd-Semana_5-API-Express-DB.git"
+  },
+  "author": "Moises Mendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoisesMendozaS01/BackEnd-Semana_5-API-Express-DB/issues"
+  },
+  "homepage": "https://github.com/MoisesMendozaS01/BackEnd-Semana_5-API-Express-DB#readme"
+}
