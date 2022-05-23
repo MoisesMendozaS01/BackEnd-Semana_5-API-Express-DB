@@ -43,7 +43,48 @@ const prisma = new PrismaClient();
       },
     });
 
-    console.log('Create 3 explorers');
+    const student = await prisma.student.upsert({
+        where: { name: 'Student' },
+        update: {},
+        create: {
+          name: 'Student',
+                  lang: 'spanish',
+                  missionCommander: 'CarloGilmar',
+                  enrollments: 1
+        },
+      });
+      const student1 = await prisma.student.upsert({
+        where: { name: 'Student 1' },
+        update: {},
+        create: {
+          name: 'Student 1',
+                  lang: 'spanish',
+                  missionCommander: 'CarloGilmar',
+                  enrollments: 2
+        },
+      });
+      const student2 = await prisma.student.upsert({
+        where: { name: 'Student 2' },
+        update: {},
+        create: {
+          name: 'Student 2',
+                  lang: 'spanish',
+                  missionCommander: 'CarloGilmar',
+                  enrollments: 1
+        },
+      });
+      const student3 = await prisma.student.upsert({
+        where: { name: 'Student 3' },
+        update: {},
+        create: {
+          name: 'Student 3',
+                  lang: 'spanish',
+                  missionCommander: 'CarloGilmar',
+                  enrollments: 2
+        },
+      });
+
+    console.log('Create 3 explorers and 3 student');
   } catch(e) {
     console.error(e);
     process.exit(1);
